@@ -6,6 +6,10 @@ console.log("Klausur 20240604")
 
 console.log("Aufgabe 1")
 // 1a) Berechnen Sie das Volumen eines Würfels mit Hilfe der Grundrechenoperatoren (+ , - , * , /) , bei dem die Kantenlänge mit der Varablen a festgelegt wird.
+console.log("Der Würfel eine Kantenlänge a von 2cm")
+let a = 2;
+console.log("Das Volumen des Würfels beträgt",a * a * a,"cm^3")
+
 
 
 
@@ -34,6 +38,9 @@ console.log("Aufgabe 2")
 
 // 2b)
 // Berechnen Sie Flächeninhalt.
+let pi=3.14;
+let Radius=2;
+console.log("Der Flächeninhalt vom Kreis entspricht",pi*Radius,"cm^2")
 
 
 
@@ -41,16 +48,15 @@ console.log("Aufgabe 2")
 
 // 2c)
 // Berechnen Sie den Umfang
-
-
-
+console.log("Der Umfang des Kreises enspricht",a*pi*Radius,"cm")
 
 
 // 2d)
 // Berechnen Sie den Durchmesser
+console.log("Der Durchmesser vom Kreis ist",a*Radius,"cm")
 
 
-
+// Durchmesser = 2 * Radius
 
 
 console.log("Aufgabe 3")
@@ -67,36 +73,45 @@ console.log("Aufgabe 3")
 
 // 3a)
 // Berechnen Sie den Rabatt in einer sprechenden Variablen. Geben Sie einen Anwortsatz auf der Konsole aus.
+let Listenpreis=16782.00;
+let RabattProzentsatz=5;
+console.log("Der Rabatt-Prozentsatz in Euro umgerechnet beträgt",Listenpreis*RabattProzentsatz/100,"Euro")
 
 
 
 // 3b)
 // Berechnen Sie den Netto-Rechnungsbetrag in einer sprechenden Variablen. Geben Sie einen Anwortsatz auf der Konsole aus.
+let Rabatt=839.1;
+console.log("Der Netto-Rechnungsbetrag beträgt",Listenpreis-Rabatt,"Euro")
 
 
 
 // 3c)
 // Berechnen Sie die MwSt in einer sprechenden Variablen. Geben Sie einen Anwortsatz auf der Konsole aus.
-
+let Mehrwertsteuersatz=19;
+let Nettobetrag=15942.9
+console.log("MwSt beträgt",Nettobetrag*Mehrwertsteuersatz/100,"Euro")
 
 
 
 // 3d) - Nur Klausurschreiber
 // Berechnen Sie den Brutto-Rechnungsbetrag in einer sprechenden Variablen. Geben Sie einen Anwortsatz auf der Konsole aus.
-
-
+let MwSt=3029.15;
+console.log("Der Brutto-Rechnungsbetrag entspricht",Nettobetrag+MwSt,"Euro")
 
 
 // 3e) - Nur Klausurschreiber
 // Berechnen Sie den Skonto in einer sprechenden Variablen. Geben Sie einen Anwortsatz auf der Konsole aus.
-
-
+let Bruttobetrag= 18972.05
+let Skonto=1.5;
+console.log("Der Skontowert liegt bei",Bruttobetrag*Skonto/100)
 
 
 // 3f) - Nur Klausurschreiber
 // Berechnen Sie den Zahlungsbetrag in einer sprechenden Variablen. Geben Sie einen Anwortsatz auf der Konsole aus.
-
-
+let Skontowert=284.58;
+console.log("Der Zahlungsbetrag liegt in der Höhe von",Bruttobetrag-Skontowert,"Euro")
+// Zahlungsbetrag = Brutto-Rechnungsbetrag – Skonto
 
 console.log("Aufgabe 4")
 
